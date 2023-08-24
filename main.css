@@ -1,0 +1,20 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #212121;
+    color: #DDDDDE;
+}
+
+#heading {
+    color: #FFEA00;
+}
+
+#profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #FFEA00;
+}
+
+#skills-more {
+    display: none;
+}
