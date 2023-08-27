@@ -10,4 +10,8 @@ skillsButton.addEventListener('click', () => {
   skillsDots.style.display = isDotsHidden ? "flex" : "none";
   skillsButton.innerHTML = isDotsHidden ? "Read more" : "Read less";
   skillsMoreText.style.display = isDotsHidden ? "none" : "flex";
+
+// ScrollTop at the click the button
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 });
