@@ -7,7 +7,7 @@ const skillsMoreText = document.getElementById("skills-more");
 skillsButton.addEventListener('click', () => {
   const isDotsHidden = skillsDots.style.display === "none";
   
-  skillsDots.style.display = isDotsHidden ? "inline" : "none";
+  skillsDots.style.display = isDotsHidden ? "flex" : "none";
   skillsButton.innerHTML = isDotsHidden ? "Read more" : "Read less";
-  skillsMoreText.style.display = isDotsHidden ? "none" : "inline";
+  skillsMoreText.style.display = isDotsHidden ? "none" : "flex";
 });
