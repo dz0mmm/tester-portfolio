@@ -178,7 +178,7 @@ h4::after {
 }
 
 #testcase-picture:hover {
-    transform: scale(1.5);
+    transform: scale(2);
 }
 
 .footer {
@@ -239,5 +239,9 @@ h4::after {
     .testcase-box {
         flex-direction: column;
         align-items: center;
+    }
+
+    #testcase-picture:hover {
+        transform: scale(1.5);
     }
 }
