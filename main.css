@@ -168,16 +168,29 @@ h4::after {
 .testcase-box {
     display: flex;
     gap: 5px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
 
-#testcase-picture {
+#testcase-pictureHeight {
     width: 200px;
     height: 300px;
     transition: transform .2s;
 }
 
-#testcase-picture:hover {
+#testcase-pictureHeight:hover {
+    transform: scale(2);
+}
+
+#testcase-pictureWidth {
+    width: 300px;
+    height: 200px;
+    transition: transform .2s;
+}
+
+#testcase-pictureWidth:hover {
     transform: scale(2);
 }
 
@@ -241,7 +254,11 @@ h4::after {
         align-items: center;
     }
 
-    #testcase-picture:hover {
+    #testcase-pictureHeight:hover {
         transform: scale(1.5);
+    }
+
+    #testcase-pictureWidth:hover {
+        transform: scale(1.25);
     }
 }
